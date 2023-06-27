@@ -3,5 +3,5 @@ on:
     runs-on: self-hosted
 jobs:
     steps:
-    - name: Git Checkout
-      uses: actions/checkout@v2
+     - name: Git Checkout
+       uses: actions/checkout@v2
