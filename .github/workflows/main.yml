@@ -2,6 +2,6 @@ on:
   workflow_call:
     runs-on: self-hosted
 jobs:
-    steps:
-     - name: Git Checkout
-       uses: actions/checkout@v2
+  steps:
+  - name: Git Checkout
+    uses: actions/checkout@v2
