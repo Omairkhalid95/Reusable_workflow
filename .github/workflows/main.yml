@@ -1,5 +1,1 @@
-runs-on: 
-  - self-hosted
-  - label-1
-steps:
  - uses: actions/checkout@v2
