@@ -5,11 +5,4 @@ name: Reusable Github Actions
 on:
   workflow_call:
 
-jobs:
-  Reusable-workflow:
-    runs-on: 
-      - self-hosted
-      - label-1
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
+- uses: actions/checkout@v3
