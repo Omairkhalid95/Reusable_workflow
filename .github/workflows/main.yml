@@ -5,12 +5,4 @@ on:
 
   workflow_call:
 
-jobs:
-  Checkout_job:
-    runs-on: 
-      - self-hosted
-      - label-1
-     
-    steps:
-    - name: Git Checkout
-      uses: actions/checkout@v2
+
