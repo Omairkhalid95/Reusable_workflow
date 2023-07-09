@@ -8,6 +8,8 @@ jobs:
     steps:
     - name: Git Checkout
       uses: actions/checkout@v2
+    - name: dir
+      run: echo "${{ github.ref_name }}"
     - name: Docker Login
       uses: docker/login-action@v2
       with:
